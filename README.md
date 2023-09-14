@@ -1,40 +1,33 @@
-A continuación, te presento un archivo `README.md` que podrías usar para describir tu código:
+# Magic the Gathering Card Organizer
 
----
+This app lets you manage and keep track of your Magic the Gathering (MtG) cards. With a simple, user-friendly interface, you can add, view, and remove your cards from a SQLite database.
 
-# Magic the Gathering Card Manager
+## Features
 
-Este programa te permite administrar y organizar tus cartas de Magic the Gathering (MtG). Con una interfaz gráfica sencilla y fácil de usar, podrás agregar, visualizar y eliminar tus cartas desde una base de datos SQLite.
+- **Add cards**: Enter your card details, including name, expansion, rarity, language, and quantity.
+- **View cards**: Check out all your added cards in a neat table.
+- **Remove cards**: If you made a mistake or got rid of a card, no worries! Just delete it.
 
-## Características
-
-- **Agrega cartas**: Introduce los detalles de tu carta, incluyendo el nombre, expansión, rareza, idioma y cantidad.
-- **Visualiza cartas**: Observa todas tus cartas agregadas en una tabla ordenada.
-- **Elimina cartas**: Si decides deshacerte de una carta o cometiste un error al ingresarla, ¡elimínala fácilmente!
-  
-## Requerimientos
+## What You'll Need
 
 - Python 3.x
-- `tkinter` para la interfaz gráfica.
-- `sqlite3` para la gestión de la base de datos.
-- `Pillow` para el manejo de imágenes (si decides agregar o modificar características relacionadas con imágenes).
+- `tkinter` for the user interface.
+- `sqlite3` for database stuff.
+- `Pillow` if you want to mess with images (or if you add that feature later).
 
-## Cómo usar
+## How to Use
 
-1. Clona o descarga este repositorio.
-2. Asegúrate de tener todos los requerimientos instalados.
-3. Ejecuta el archivo principal para iniciar la aplicación:
+1. Download or clone this folder.
+2. Make sure you have everything from the "What You'll Need" list.
+3. Run the main file to start the app:
 ```
-python nombre_del_archivo.py
+python file_name.py
 ```
-(Reemplaza `nombre_del_archivo.py` con el nombre real del archivo si es diferente).
+(Replace `file_name.py` with the actual name if it's different).
 
-## Futuras mejoras
+## Possible Upgrades
 
-- **Búsqueda de cartas**: Implementar una función de búsqueda para encontrar cartas específicas.
-- **Edición de cartas**: Permitir la edición de cartas existentes en la base de datos.
-- **Imágenes de cartas**: Añadir una función para ver imágenes de las cartas.
+- **Search for cards**: Adding a search function to find specific cards.
+- **Edit cards**: Letting you change card details in the database.
+- **Card images**: Adding a feature to see card images.
 
----
-
-Espero que este README te sea útil. Puedes modificarlo según tus necesidades o para añadir más detalles. Si estás planeando poner tu código en GitHub u otra plataforma similar, un buen README es esencial para que otros puedan entender y contribuir a tu proyecto. ¡Buena suerte con tu proyecto!
